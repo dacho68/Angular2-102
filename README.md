@@ -62,7 +62,7 @@ However if you don't want to use the Input decorator, you can add the input prop
  
 See: [Input/Output Property Example](https://github.com/dacho68/Angular2-102/blob/master/app/favorite.component.ts)  
 
-Bind to an Input Property on an component
+Bind to an input sample :
 ``` typescript 
     @Component({
         selector: 'my-app',
@@ -98,6 +98,7 @@ The draw back is this will cost you one more http request on the first call. Per
    **Syntax :**
    
 ``` typescript
+   template:'...' //or
    templateUrl: 'path/your_template_file.html', 
 ```
 
@@ -107,13 +108,20 @@ Example :
 @Component({
     selector: 'favorite', 
     // using templateURL will cost you one more HTTP request
-    templateUrl: 'app/favorite.template.html', 
+    templateUrl: 'app/favorite.template.html' 
 }) 
 ```
 
 ## Styles
 
 it's similar to the template concept, there is inline styles[] and the stylesUrl[]
+
+   **Syntax :**
+   
+``` typescript
+   styles:[`...`] //or
+   stylesUrl: ['path/your_css_file.css','...'] 
+```
 
 Example : Inline Style
 
