@@ -1,11 +1,11 @@
 # Angular2-102
 
-In this part you will learn more about building Component with Input Property (similar to WPF Dependency Property)
+In this part you will learn more about building Component with Input Property (similar to WPF Dependency Property). Most of the samples are from the course Angular 2 with TypeScript by Mosh Hamedi on Udemy.
 
-- [Jumpstart](https://github.com/dacho68/Angular2-Jumpstart) - Quick understanding of how to build an App with Angular 2
-- [Part 1](https://github.com/dacho68/Angular2-101) - Property Binding, Class and Style Binding, Event Binding, Two way Binding
-- Part 2 -  Component API in depth
-- Part 3
+- [Jumpstart](https://github.com/dacho68/Angular2-Jumpstart) - Quick understanding of how to build an App with Angular 2.
+- [101](https://github.com/dacho68/Angular2-101) - Property Binding, Class and Style Binding, Event Binding, Two way Binding.
+- 102 - Component API in depth.
+- 103
 
 ## Setup the environment on Windows for running the samples
 - First install the Node at nodejs.org
