@@ -123,7 +123,7 @@ it's similar to the template concept, there is inline styles[] and the stylesUrl
    stylesUrl: ['path/your_css_file.css','...'] 
 ```
 
-Example : Inline Style
+Example : Inline Style 
 
 ``` typescript
 @Component({
@@ -137,18 +137,32 @@ Example : Inline Style
 }) 
 ```
 
-## Exercise - 
-Make a glyphicon heart when you click on it, the counter increase by one and the color change. If you click it again . it's go back to gray and decrease bty one.  
-the mouse hover also changes the mouse cursor 
+## Exercise 1 - Like Component
+Make a glyphicon heart when you click on it, the counter increase by one and the color change to pink ![like](./images/like.jpg) . If you click it again . it's go back to gray and decrease by one ![unlike](./images/unlike.jpg).  
+the mouse hover also changes the mouse cursor to pointer.
 
 use the glyphicon from bootstrap to render the icon
 
-See: [Solution](https://github.com/dacho68/Angular2-101/blob/master/app/favorite.component.ts)
-
+__Specification :s__
 ``` html5   
-    <span class = "glyphicon glyphicon-heart" />
+    glyphicon-heart
     light gray : #ccc
     pink: deeppink
     cursor: pointer
-```    
+```
+See: [Solution](https://github.com/dacho68/Angular2-102/blob/master/app/like2.component.ts)
+    
 
+## Exercise 2 - Vote Component
+Make an vote component as you see on the stack overflow website. The user can only have one vote up and one vote down ![vote down](./images/vote_down.jpg)
+
+__Specifications :__
+``` html5   
+    glyphicon-menu-up
+    glyphicon-menu-down
+    width: 20px
+    
+    Public API
+      Input Properties : voteCount and myVote
+      Output Properties : vote
+```  
