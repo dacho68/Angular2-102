@@ -33,7 +33,7 @@ npm start
 ``` typescript
     @Input('alias name') propertyName; // add the Input decorator (@Input()) in your class component.
 ```
-Using the alias to expose the alias name as the public input name but keep the actual property name as a private property
+Using the alias to expose the alias name as the public input name but keep the actual property name as a private property.
 
 However if you don't want to use the Input decorator, you can add the input property in the inputs metadata of the component as the code below. Personally I like to use the Input decorator
 
@@ -92,7 +92,7 @@ The Output Property can also declare in the metadata of the component. And the a
 
 ## Templates
 
-The template url is useful when you have very large template then you want to keep your template in a separate file. 
+The template url is useful when you have a very large template then you want to keep your template in a separate file. 
 The draw back is this will cost you one more http request on the first call. Personnally, I do my best to keep the template inline.  
    
    **Syntax :**
@@ -138,7 +138,7 @@ Example : Inline Style
 ```
 
 ## Exercise 1 - Like Component
-Make a glyphicon heart when you click on it, the counter increase by one and the color change to pink ![like](./images/like.jpg) . If you click it again . it's go back to gray and decrease by one ![unlike](./images/unlike.jpg).  
+Make a glyphicon heart when you click on it, the counter increases by one and the color changes to pink ![like](./images/like.jpg) . If you click it again . it goes back to gray and decreases by one ![unlike](./images/unlike.jpg).  
 the mouse hover also changes the mouse cursor to pointer.
 
 use the glyphicon from bootstrap to render the icon
@@ -154,7 +154,7 @@ See: [Solution](https://github.com/dacho68/Angular2-102/blob/master/app/like2.co
     
 
 ## Exercise 2 - Vote Component
-Make an vote component as you see on the stack overflow website. The user can only have one vote up and one vote down ![vote down](./images/vote_down.jpg)
+Make a vote component as you see on the stack overflow website. The user can only have one vote up and one vote down. This image ![vote down](./images/vote_down.jpg) illustrates the look and feel of the component.
 
 __Specifications :__
 ``` html5   
@@ -168,5 +168,5 @@ __Specifications :__
 ```  
 See: [Solution](https://github.com/dacho68/Angular2-102/blob/master/app/voter.component.ts)
 
-Useful References
+**Useful References**
 [Angular 2 Style Guide](https://github.com/dacho68/angular2-style-guide)
