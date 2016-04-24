@@ -166,3 +166,7 @@ __Specifications :__
       Input Properties : voteCount and myVote
       Output Properties : vote
 ```  
+See: [Solution](https://github.com/dacho68/Angular2-102/blob/master/app/voter.component.ts)
+
+Useful References
+[Angular 2 Style Guide](https://github.com/dacho68/angular2-style-guide)
