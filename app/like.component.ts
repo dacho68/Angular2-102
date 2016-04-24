@@ -29,7 +29,7 @@ import {Component, Input,Output,  EventEmitter} from 'angular2/core';
 export class LikeComponent {
   
   @Input() isLike: boolean = false;
-  @Input() count :  number = 0;
+  @Input() count : number = 0;
    
   onClick(){
     this.isLike = !this.isLike;
@@ -40,5 +40,4 @@ export class LikeComponent {
         this.count -= 1;
     }
   }
-  
 }
