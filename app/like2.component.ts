@@ -1,10 +1,7 @@
 import {Component, Input,Output,  EventEmitter} from 'angular2/core';
-
-// this is new to Angular 2.0
 @Component({
     // this solution is more elegant
     selector: 'like2', 
-    // using templateURL will cost you one more HTTP request
     template: `
             <i class="glyphicon glyphicon-heart" 
             [class.high-lighted]="iLike"
@@ -21,7 +18,6 @@ import {Component, Input,Output,  EventEmitter} from 'angular2/core';
             color: deeppink;   
         }
     `],
-    // including 
    directives:[],
 })
 

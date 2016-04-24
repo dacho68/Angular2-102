@@ -1,10 +1,7 @@
 import {Component, Input,Output,  EventEmitter} from 'angular2/core';
 
-// this is new to Angular 2.0
 @Component({
-    // element selector my-app
     selector: 'like', 
-    // using templateURL will cost you one more HTTP request
     template: `
             <i class="glyphicon glyphicon-heart" 
             [class.deeppink]="isLike"
@@ -22,7 +19,6 @@ import {Component, Input,Output,  EventEmitter} from 'angular2/core';
             cursor: pointer 
         }
     `],
-    // including 
    directives:[],
 })
 

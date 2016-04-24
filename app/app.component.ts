@@ -6,7 +6,8 @@ import {Component} from 'angular2/core';
 import {FavoriteComponent} from './favorite.component';
 import {LikeComponent} from './like.component';
 import {Like2Component} from './like2.component';
-// this is new to Angular 2.0
+import {VoterComponent} from './voter.component';
+
 @Component({
     // element selector my-app
     selector: 'my-app',
@@ -18,21 +19,35 @@ import {Like2Component} from './like2.component';
                Exercise 1 : Like Component
                <like [count]="tweet.likeCount" [isLike]="tweet.isLike" ></like><br>
                Mosh's solution :
-               <like2  [totalLikes]="tweet.likeCount" [iLike]="tweet.isLike"></like2>
+               <like2  [totalLikes]="tweet.likeCount" [iLike]="tweet.isLike"></like2><br>
+              <span>  Exercise 2 : Voter Component
+               <voter 
+                      [voteCount]="post.voteCount"
+                      [myVote]="post.myVote"
+                      (vote)="onVote($event)">
+               </voter>
+              </span>
+               
               `,
     // including those components
-   directives:[ FavoriteComponent,LikeComponent,Like2Component ]
+   directives:[ FavoriteComponent,LikeComponent,Like2Component,VoterComponent ]
 })
 
 export class AppComponent {
   post = {
       title: "Title",
-      isFavorite: true
+      isFavorite: true,
+      voteCount:10,
+      myVote: 0
   };
   
   tweet = {
       likeCount: 10,
       isLike: false
+  }
+  
+  onVote($event){
+      console.log($event);
   }
   
   onFavoriteChange($event){
