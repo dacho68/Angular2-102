@@ -5,14 +5,14 @@ import {Component, Input,Output,  EventEmitter} from 'angular2/core';
     template: `
     <div class="voter">
         <i class="glyphicon glyphicon-menu-up vote-button" 
-        [class.highlighted]="myVote == 1"
+        [class.hightlighted]="myVote == 1"
         (click)="upVote()" >
         </i> 
         
         <span class="vote-count">{{voteCount + myVote }}</span>
         
         <i class="glyphicon glyphicon-menu-down vote-button" 
-        [class.highlighted]="myVote == -1"
+        [class.hightlighted]="myVote == -1"
         (click)="downVote()" >
         </i>
     </div>    
@@ -23,6 +23,7 @@ import {Component, Input,Output,  EventEmitter} from 'angular2/core';
             width: 20px;
             text-align: center;
             color: #999;
+            display: inline-block;
         }
         
         .vote-count{
