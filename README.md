@@ -1,14 +1,14 @@
 # Angular2-102
 
-In this part you will learn more about building Component with Input Property (similar to WPF Dependency Property). Most of the samples are from the course Angular 2 with TypeScript by Mosh Hamedi on Udemy.
-
+In this part you will learn more about building Component with Input Property (similar to WPF Dependency Property). Most of the samples are from the course [Angular 2 with TypeScript](https://www.udemy.com/angular-2-tutorial-for-beginners/learn/v4/overview) by Mosh Hamedi on Udemy.
+I develop  the Angular 2 samples along way I'm learning Angular 2. If you have time, I recommend you to take the course because it has richer contents.
 - [Jumpstart](https://github.com/dacho68/Angular2-Jumpstart) - Quick understanding of how to build an App with Angular 2.
 - [101](https://github.com/dacho68/Angular2-101) - Property Binding, Class and Style Binding, Event Binding, Two way Binding.
 - 102 - Component API in depth.
 - 103
 
 ## Setup the environment on Windows for running the samples
-- First install the Node at nodejs.org
+- First instal [NodeJs](https://nodejs.org/en/)
 - Install typescript globally
 
 ```
@@ -16,7 +16,7 @@ npm install -g typescript
 npm install -g typings
 ```
 
-We are going VSCode as our IDE, and you can download it from  code.visualstudio.com. 
+We are going to use [Visual Studio Code](http://code.visualstudio.com/) for editing our project
 after you checkout this repository. Run the command below for install the dependencies
 
 ```
@@ -136,3 +136,19 @@ Example : Inline Style
     `],
 }) 
 ```
+
+## Exercise - 
+Make a glyphicon heart when you click on it, the counter increase by one and the color change. If you click it again . it's go back to gray and decrease bty one.  
+the mouse hover also changes the mouse cursor 
+
+use the glyphicon from bootstrap to render the icon
+
+See: [Solution](https://github.com/dacho68/Angular2-101/blob/master/app/favorite.component.ts)
+
+``` html5   
+    <span class = "glyphicon glyphicon-heart" />
+    light gray : #ccc
+    pink: deeppink
+    cursor: pointer
+```    
+
