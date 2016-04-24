@@ -32,6 +32,6 @@ export class Like2Component {
    
   onClick(){
       this.iLike = !this.iLike;
-      this.totalLikes +=  this.isLike ? 1 : -1;
+      this.totalLikes +=  this.iLike ? 1 : -1;
   }
 }
