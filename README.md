@@ -166,7 +166,10 @@ See: [Solution](https://github.com/dacho68/Angular2-102/blob/master/app/voter.co
 
 ![twitter](./images/challenge_twitter.jpg)
 
-
+_Hints :_
+``` html5   
+    Use the Media object from bootstrap for rendering the images.
+```  
 
 
 **Useful References**

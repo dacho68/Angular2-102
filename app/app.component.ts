@@ -7,6 +7,7 @@ import {FavoriteComponent} from './favorite.component';
 import {LikeComponent} from './like.component';
 import {Like2Component} from './like2.component';
 import {VoterComponent} from './voter.component';
+import {TweetsComponent} from './challenge/tweets.component';
 
 @Component({
     // element selector my-app
@@ -27,10 +28,12 @@ import {VoterComponent} from './voter.component';
                       (vote)="onVote($event)">
                </voter>
               </span>
-               
+              <br>
+              <h4>Challenge </h4>
+              <tweets></tweets> 
               `,
     // including those components
-   directives:[ FavoriteComponent,LikeComponent,Like2Component,VoterComponent ]
+   directives:[ FavoriteComponent,LikeComponent,Like2Component,VoterComponent,TweetsComponent ]
 })
 
 export class AppComponent {
