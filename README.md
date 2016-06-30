@@ -174,7 +174,6 @@ _Hints :_
 See: [Solution](https://github.com/dacho68/Angular2-102/tree/master/app/challenge)
 
 
-
 **Useful References**
     - [Angular 2 Style Guide](https://github.com/dacho68/angular2-style-guide)
     - [CSS Encapsulation with Angular 2 Components](https://coryrylan.com/blog/css-encapsulation-with-angular-2-components)
