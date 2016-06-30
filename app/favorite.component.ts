@@ -1,6 +1,6 @@
 // core fo angular2 . always need it
 // we import the Input decorator and the EventEmitter
-import {Component, Input,Output,  EventEmitter} from 'angular2/core';
+import {Component, Input,Output,  EventEmitter} from '@angular/core';
 
 // this is new to Angular 2.0
 @Component({

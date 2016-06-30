@@ -179,3 +179,7 @@ See: [Solution](https://github.com/dacho68/Angular2-102/tree/master/app/challeng
     - [Angular 2 Style Guide](https://github.com/dacho68/angular2-style-guide)
     - [CSS Encapsulation with Angular 2 Components](https://coryrylan.com/blog/css-encapsulation-with-angular-2-components)
     - [Core Concepts of Angular 2](http://victorsavkin.com/post/118372404541/the-core-concepts-of-angular-2)
+
+## Output
+
+![Result](./images/result.jpg)

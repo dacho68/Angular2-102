@@ -1,4 +1,4 @@
-import {Component} from 'angular2/core'
+import {Component} from '@angular/core'
 import {TweetService} from './tweet.service'
 import {TweetComponent} from './tweet.component'
 
