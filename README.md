@@ -7,6 +7,7 @@ I'm developping the Angular 2 samples along way I'm learning Angular 2. If you h
 - 102 - Component API in depth.
 - [103](https://github.com/dacho68/Angular2-103) - Controlling Rendering of the HTML.
 - [104](https://github.com/dacho68/Angular2-104) - Forms and Validations.
+- [Connectivity](https://github.com/dacho68/Angular2-Connectivity) - Connecting to the server.
 
 ## Setup the environment on Windows for running the samples
 - First install [NodeJs](https://nodejs.org/en/)

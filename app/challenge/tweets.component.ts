@@ -5,7 +5,7 @@ import {TweetComponent} from './tweet.component'
 @Component({
     selector: 'tweets',
     template: `
-        <div *ngFor="#tweet of tweets">
+        <div *ngFor="let tweet of tweets">
             <tweet [data]="tweet"></tweet>
         </div>
     `,

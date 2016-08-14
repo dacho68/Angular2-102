@@ -31,7 +31,7 @@ System.register(['@angular/core', './tweet.service', './tweet.component'], funct
                 TweetsComponent = __decorate([
                     core_1.Component({
                         selector: 'tweets',
-                        template: "\n        <div *ngFor=\"#tweet of tweets\">\n            <tweet [data]=\"tweet\"></tweet>\n        </div>\n    ",
+                        template: "\n        <div *ngFor=\"let tweet of tweets\">\n            <tweet [data]=\"tweet\"></tweet>\n        </div>\n    ",
                         providers: [tweet_service_1.TweetService],
                         directives: [tweet_component_1.TweetComponent]
                     }), 

@@ -16,7 +16,7 @@ import {Component, Input,Output,  EventEmitter} from '@angular/core';
     `],
     // including 
    directives:[ ],
-   inputs: ['isFavorite:is-favorite'],  // we want to expose the is-favorite as the public input interface but keep the isFavorite property as the private
+  // inputs: ['isFavorite:is-favorite'],  // we want to expose the is-favorite as the public input interface but keep the isFavorite property as the private
 })
 
 export class FavoriteComponent {
